@@ -1,0 +1,40 @@
+body{
+    margin: 0;
+}
+
+.container{
+  height: 100vh;
+  width: 100%;
+  background-color: #A7BBC7; 
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;  
+}
+
+.info {
+    display: flex;
+    justify-content: space-between;
+    width: 500px;
+  }
+
+.seat-area{
+  height: 85vh;
+  background-color: #B6C9F0;
+  width: 78vw;
+  display: grid;
+  grid-template-columns:1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-gap: 10px;
+  padding: 10px;
+} 
+
+.box{
+  background-color: #E1E5EA;
+  
+}
+.box:hover{
+    opacity: 0.9;
+}
+.boxclicked{
+    background-color: #4AA96C;
+}
